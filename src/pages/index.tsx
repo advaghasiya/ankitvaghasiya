@@ -23,14 +23,36 @@ import {
   SimpleGrid,
   Text,
   Title,
+  createStyles,
+  MantineTheme,
 } from '@mantine/core'
-
+import { useMediaQuery } from '@mantine/hooks'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 import Layout from '../components/Layout/Layout'
 import Loader from '../components/Loader/Loader'
 import useWidth from '../hooks/useWidth'
+
+const useStyles = createStyles((theme: MantineTheme) => ({
+  gridContainer: {
+    display: 'grid',
+    gap: theme.spacing.lg,
+    gridTemplateColumns: 'repeat(4, 1fr)',
+
+    [theme.fn.largerThan('xs')]: {
+      gridTemplateColumns: 'repeat(5, 1fr)',
+    },
+
+    [theme.fn.largerThan('sm')]: {
+      gridTemplateColumns: 'repeat(7, 1fr)',
+    },
+
+    [theme.fn.largerThan('md')]: {
+      gridTemplateColumns: 'repeat(9, 1fr)',
+    },
+  },
+}))
 
 const techStack = [
   { name: 'Python', icon: Python, color: '#4b8bbe', link: 'https://www.python.org' },
@@ -52,6 +74,9 @@ const techStack = [
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true)
+  const { classes } = useStyles()
+  const isMobile = useMediaQuery('(max-width: 576px)')
+
 
   useEffect(() => {
     setLoading(true)
@@ -85,13 +110,13 @@ const HomePage = () => {
         <Group direction="column" mt={60}>
         <Title order={2}>Tech Stack</Title>
         <Paper py="lg" sx={{ background: 'rgba(0,0,0, 0.03)' }}>
-          <SimpleGrid cols={9} spacing="lg">
+          <div className={classes.gridContainer}>
             {techStack.map(({ name, icon: Icon, color, link }) => (
               <Anchor
                 key={name}
                 href={link}
                 target="_blank"
-                style={{ 
+                style={{
                   textAlign: 'center',
                   transition: 'transform 0.2s ease-in-out',
                 }}
@@ -101,11 +126,11 @@ const HomePage = () => {
                   },
                 }}
               >
-                <Icon color={color} size={60} />
-                <Text mt={5} weight={500}>{name}</Text>
+                <Icon color={color} size={isMobile ? 40 : 60} />
+                <Text mt={5} weight={500} size={isMobile ? "sm" : "md"}>{name}</Text>
               </Anchor>
             ))}
-          </SimpleGrid>
+          </div>
         </Paper>
       </Group>
       </Box>
