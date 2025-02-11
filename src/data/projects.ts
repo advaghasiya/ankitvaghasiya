@@ -8,7 +8,7 @@ export const projects = [
     stack: ['React.js', 'Next.js', 'TypeScript', 'Mantine'],
     links: [
       {
-        link: 'https://github.com/aycanogut/portfolio-next',
+        link: 'https://github.com/advaghasiya/',
         id: 1,
       },
       {
@@ -24,7 +24,7 @@ export const projects = [
     stack: ['React.js', 'Next.js', 'TypeScript', 'Mantine'],
     links: [
       {
-        link: 'https://hef.com.tr',
+        link: '',
         id: 1,
       },
     ],
@@ -37,11 +37,11 @@ export const projects = [
     stack: ['docusaurus'],
     links: [
       {
-        link: 'https://github.com/aycanogut/front-end-resources',
+        link: 'https://github.com/advaghasiya/',
         id: 1,
       },
       {
-        link: 'https://fe-resources.vercel.app',
+        link: '',
         id: 2,
       },
     ],
@@ -54,11 +54,11 @@ export const projects = [
     stack: ['React.js', 'TypeScript', 'styled'],
     links: [
       {
-        link: 'https://github.com/aycanogut/fem-rest-countries-flag-api',
+        link: 'https://github.com/advaghasiya/',
         id: 1,
       },
       {
-        link: 'https://fem-rest-countries-flag-api.vercel.app/',
+        link: '',
         id: 2,
       },
     ],
@@ -70,11 +70,11 @@ export const projects = [
     stack: ['React.js', 'SASS', 'Redux', 'Firebase'],
     links: [
       {
-        link: 'https://github.com/aycanogut/e-commerce-react',
+        link: 'https://github.com/advaghasiya/',
         id: 1,
       },
       {
-        link: 'https://more-shopping.netlify.app/',
+        link: '',
         id: 2,
       },
     ],
@@ -86,11 +86,11 @@ export const projects = [
     stack: ['JavaScript', 'SASS', 'gulp.js', 'cssnano'],
     links: [
       {
-        link: 'https://github.com/aycanogut/fem-social-media-dashboard',
+        link: 'https://github.com/advaghasiya/',
         id: 1,
       },
       {
-        link: 'https://fem-social-media-dashboard-fawn.vercel.app/',
+        link: '',
         id: 2,
       },
     ],
@@ -102,13 +102,10 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     links: [
       {
-        link: 'https://github.com/aycanogut/odin-project-curriculum/tree/main/fundamentals/etch-a-sketch',
+        link: 'https://github.com/advaghasiya',
         id: 1,
       },
-      {
-        link: 'https://odin-project-curriculum.vercel.app/fundamentals/etch-a-sketch/index.html',
-        id: 2,
-      },
+      
     ],
   },
   {
@@ -118,11 +115,11 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     links: [
       {
-        link: 'https://github.com/aycanogut/odin-project-curriculum/tree/main/fundamentals/calculator',
+        link: 'https://github.com/advaghasiya',
         id: 1,
       },
       {
-        link: 'https://odin-project-curriculum.vercel.app/fundamentals/calculator/index.html',
+        link: '',
         id: 2,
       },
     ],
@@ -134,12 +131,8 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     links: [
       {
-        link: 'https://github.com/aycanogut/odin-project-curriculum/tree/main/fundamentals/rock-paper-scissors',
+        link: 'https://github.com/advaghasiya',
         id: 1,
-      },
-      {
-        link: 'https://odin-project-curriculum.vercel.app/fundamentals/rock-paper-scissors',
-        id: 2,
       },
     ],
   },

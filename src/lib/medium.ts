@@ -1,7 +1,17 @@
 export const getBlogPosts = async () => {
-  const response = await fetch(process.env.MEDIUM_URL, {
-    method: 'GET',
-  })
+  const mediumUrl = process.env.MEDIUM_URL;
+  
+  if (!mediumUrl) {
+    throw new Error('MEDIUM_URL is not defined in the environment variables');
+  }
 
-  return response.json()
+  const response = await fetch(mediumUrl, {
+    method: 'GET',
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+
+  return response.json();
 }

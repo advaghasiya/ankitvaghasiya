@@ -50,7 +50,6 @@ Page contents provided by Github, Raindrop, and rss2json APIs.
 
 ## Author
 
-- [Github](https://github.com/aycanogut)
-- [LinkedIn](https://www.linkedin.com/in/aycanogut/)
-- [Twitter](https://www.twitter.com/bleedeleventh)
-- [Medium](https://medium.com/@aycanogut)
+- [Github](https://github.com/advaghasiya)
+- [LinkedIn](https://www.linkedin.com/in/ankit-vaghasiya/)
+- [Twitter](https://www.twitter.com/AnkitVaghasiy)

@@ -83,7 +83,7 @@ const About = () => {
           Find out more about me&nbsp;
           <Anchor
             variant="link"
-            href="https://read.cv/aycanogut"
+            href=""
             target="_blank"
             weight={500}
             underline

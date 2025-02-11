@@ -1,9 +1,11 @@
-import { motion } from 'framer-motion'
-import React from 'react'
+import { motion, MotionProps } from 'framer-motion'
+import React, { ReactNode } from 'react'
 
-const Transition = (props) => {
-  const { children } = props
+interface TransitionProps extends MotionProps {
+  children: ReactNode;
+}
 
+const Transition: React.FC<TransitionProps> = ({ children, ...props }) => {
   return <motion.div {...props}>{children}</motion.div>
 }
 

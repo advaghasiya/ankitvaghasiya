@@ -1,8 +1,8 @@
 export interface IProjectProps {
-  id: number
-  image: string
-  title: string
-  description: string
-  stack: string[]
-  links: any
+  id: number;
+  title: string;
+  description: string;
+  stack: string[];
+  links: { link: string; id: number; }[];
+  image?: string; // Make image optional by adding '?'
 }

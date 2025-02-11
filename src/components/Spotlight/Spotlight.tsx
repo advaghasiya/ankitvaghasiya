@@ -1,7 +1,7 @@
 import { useMantineColorScheme } from '@mantine/core'
 import { SpotlightAction, SpotlightProvider } from '@mantine/spotlight'
 import { useRouter } from 'next/router'
-import { FC } from 'react'
+import { FC, ReactNode  } from 'react'
 import {
   AppWindow,
   Bookmarks,
@@ -63,14 +63,18 @@ const Spotlight: FC<ISpotlightProps> = ({ children }) => {
       icon: colorScheme === 'dark' ? <Sun /> : <Moon />,
     },
   ]
-
+  type SpotlightItem = {
+    title: string;
+    icon: React.ReactNode;
+    url?: string;
+  };
   const actions: SpotlightAction[] = SpotlightContent?.map(
-    (item: { title: string; icon: any; url: string }) => ({
+    (item: SpotlightItem) => ({
       title: item.title,
       icon: item.icon,
-      onTrigger: item.url
-        ? () => router.push(`${item.url}`)
-        : () => toggleColorScheme(),
+      onTrigger: item.url 
+        ? () => router.push(item.url!)
+        : () => {}, // Provide a no-op function if url is undefined
     })
   )
 

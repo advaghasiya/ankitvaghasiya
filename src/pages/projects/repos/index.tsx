@@ -25,7 +25,7 @@ const Repos: FC<IRepoProps> = () => {
       <Grid gutter="lg" grow>
         {data &&
           data
-            .sort((a, b) => b.stargazers_count - a.stargazers_count)
+            .sort((a: { stargazers_count: number }, b: { stargazers_count: number }) => b.stargazers_count - a.stargazers_count)
             .map(
               (repo: {
                 id: number
