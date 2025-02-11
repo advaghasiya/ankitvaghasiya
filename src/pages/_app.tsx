@@ -35,7 +35,7 @@ export default function App(props: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        <link rel="shortcut icon" href="public/favicon.png" />
+        <link rel="shortcut icon" href="favicon.png" />
       </Head>
       <GoogleAnalytics trackPageViews />
       <TrackingHeadScript id={GA_TRACKING_ID} />

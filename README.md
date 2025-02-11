@@ -5,7 +5,7 @@ Page contents provided by Github, Raindrop, and rss2json APIs.
 
 <br />
 
-![ankitvaghasiya.com](portfolio.png)
+![ankitvaghasiya.com](public/portfolio.png)
 
 
 ## PageSpeed Metrics

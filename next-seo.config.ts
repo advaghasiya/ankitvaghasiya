@@ -11,7 +11,7 @@ const SEO: DefaultSeoProps = {
     locale: 'en_IE',
     images: [
       {
-        url: 'public/thumbnail.png',
+        url: 'https://www.ankitvaghasiya.com/thumbnail.png',
         width: 800,
         height: 600,
         alt: 'ankitvaghasiya.com thumbnail image',
