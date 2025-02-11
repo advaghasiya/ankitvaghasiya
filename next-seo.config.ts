@@ -21,8 +21,8 @@ const SEO: DefaultSeoProps = {
     siteName: 'ankitvaghasiya.com',
   },
   twitter: {
-    handle: '@bleedeleventh',
-    site: '@bleedeleventh',
+    handle: '@AnkitVaghasiy',
+    site: '@AnkitVaghasiy',
     cardType: 'summary_large_image',
   },
 }

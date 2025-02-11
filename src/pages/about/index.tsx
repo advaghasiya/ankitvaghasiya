@@ -2,8 +2,6 @@ import {
   Github,
   Gmail,
   Linkedin,
-  Medium,
-  Twitter,
 } from '@icons-pack/react-simple-icons'
 import {
   Anchor,
@@ -17,6 +15,7 @@ import dynamic from 'next/dynamic'
 import { ReactNode } from 'react'
 
 import Layout from '../../components/Layout/Layout'
+import { X } from 'tabler-icons-react'
 
 const GitHubCalendar = dynamic(() => import('react-github-calendar'))
 const NowPlaying = dynamic(
@@ -37,7 +36,7 @@ const About = () => {
       url: 'https://www.linkedin.com/in/ankit-vaghasiya',
     },
     {
-      component: <Twitter color={iconColor} size={32} />,
+      component: <X color={iconColor} size={32} />,
       url: 'https://twitter.com/AnkitVaghasiy',
     },
     {
