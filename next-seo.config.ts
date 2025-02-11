@@ -11,7 +11,7 @@ const SEO: DefaultSeoProps = {
     locale: 'en_IE',
     images: [
       {
-        url: 'https://user-images.githubusercontent.com/74212439/199986276-7c72cb14-1e54-4dc0-a355-a1f6ad7b9d18.png',
+        url: 'public/thumbnail.png',
         width: 800,
         height: 600,
         alt: 'ankitvaghasiya.com thumbnail image',
