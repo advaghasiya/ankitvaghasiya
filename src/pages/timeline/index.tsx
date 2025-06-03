@@ -7,7 +7,59 @@ const Timeline = () => (
     <Title order={1} mb={30}>
       Professional Experience
     </Title>
+    
     <MantineTimeline active={1} color="violet">
+      <MantineTimeline.Item
+        bullet={<Circle size={48} strokeWidth={4} color="white" />}
+        title="AI Product Developer and Software Enginner"
+      >
+          <Text>
+            <Anchor href="https://synentec.com/" target="_blank" weight={500} >
+              <strong>SYNENTEC GmbH</strong>
+            </Anchor>
+            &nbsp;| Elmshorn, Germany.
+          </Text>
+        <List center icon>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Developing AI-based computer vision models for analyzing biomedical images with high precision.
+            </Text>
+          </List.Item>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Preparing and curating large-scale microscopy datasets for deep learning pipelines.
+            </Text>
+          </List.Item>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Designing and implementing robust ETL pipelines to streamline model training and evaluation.
+            </Text>
+          </List.Item>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Building scalable MLOps workflows for reproducible training, validation, and deployment.
+            </Text>
+          </List.Item>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Automating model versioning, experiment tracking, and continuous integration for AI lifecycle.
+            </Text>
+          </List.Item>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Collaborating with biologists and engineers to align AI solutions with laboratory workflows.
+            </Text>
+          </List.Item>
+          <List.Item>
+            <Text color="dimmed" size="sm">
+              Delivering cutting-edge AI solutions to accelerate biomedical research and diagnostics.
+            </Text>
+          </List.Item>
+        </List>
+        <Text size="xs" mt={4}>
+          03/2025 – Present
+        </Text>
+      </MantineTimeline.Item>
       <MantineTimeline.Item
         bullet={<Circle size={48} strokeWidth={4} color="white" />}
         title="Software Engineer and Data Acquisition"
@@ -56,7 +108,7 @@ const Timeline = () => (
           </List.Item>
         </List>
         <Text size="xs" mt={4}>
-          09/2024 – Present
+          09/2024 – 02/2025
         </Text>
       </MantineTimeline.Item>
 

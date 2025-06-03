@@ -56,21 +56,21 @@ const About = () => {
         </Text>
         <Text weight={500} mt={20}>
         I am a passionate software developer and data engineer with a strong academic background in Physics and Astrophysics. My journey into the world of technology began with a curiosity for solving complex problems, which has since evolved into a career focused on building innovative software solutions and leveraging data to drive impactful results.
-        With expertise in Python, Go, React.js, and cloud technologies, I have developed scalable backend systems, intuitive frontend applications, and machine learning models for diverse industries, including healthcare and geospatial analytics. My experience spans the entire development lifecycle—from conceptualization and design to deployment and optimization.
-        At Theodor Health GmbH, I led the development of a custom data annotation platform and built an Android application for healthcare professionals, ensuring seamless data exchange and high-quality medical research. At Contra, I designed semantic segmentation algorithms for aerial images and managed high-performance computing clusters, delivering scalable and reliable solutions.
+        With expertise in Python, Go, React.js, and cloud technologies, I have developed scalable backend systems, intuitive frontend applications, and machine learning models for diverse industries, including healthcare, geospatial analytics, and biomedical research. My experience spans the entire development lifecycle—from conceptualization and design to deployment and optimization.
+        Currently at SYNENTEC GmbH, I develop AI-driven computer vision models in the biomedical field, applying advanced machine learning techniques to enable precise and efficient analysis of cellular and microscopic imagery.
+        Previously at Theodor Health GmbH, I led the development of a custom data annotation platform and built an Android application for healthcare professionals, ensuring seamless data exchange and supporting high-quality medical research. At Contra, I designed semantic segmentation algorithms for aerial images and managed high-performance computing clusters, delivering scalable and reliable solutions.
         What drives me is the challenge of solving real-world problems through technology. I thrive in collaborative environments where I can contribute my technical skills, strategic thinking, and adaptability to deliver solutions that make a difference.
-      
         </Text>
         <Text weight={500} my={20}>
-          Currently, I&apos;m working as a Software Enginner at 
+          Currently, I&apos;m working as a AI Product Developer and Software Enginner at 
           <Anchor
-            href="https://theodorhealth.com/"
+            href="https://synentec.com/"
             target="_blank"
             variant="link"
             weight={500}
             underline
           >
-            <strong> &nbsp;Theodor Health GmbH</strong>
+            <strong> &nbsp; SYNENTEC GmbH</strong>
           </Anchor>
           .
         </Text>
